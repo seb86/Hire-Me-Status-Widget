@@ -136,7 +136,7 @@ class Hire_Me_Status extends WP_Widget {
 		if( $status == 'available' ) { echo __( 'Available', 'hire-me-status-widget' ); }
 		elseif( $status == 'unavailable' ) { echo __( 'Unavailable', 'hire-me-status-widget' ); }
 
-		echo __( 'for Hire', 'hire-me-status-widget' );
+		echo ' ' . __( 'for Hire', 'hire-me-status-widget' );
 		echo '</strong></span> ';
 
 		echo '</div>';
